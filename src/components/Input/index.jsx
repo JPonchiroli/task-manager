@@ -1,4 +1,4 @@
-export default function Input({ type, placeholder, onChange, value }) {
+export default function Input({ type, placeholder, onChange, value, required }) {
     return (
         <input
             className="bg-slate-700 p-3 rounded-xl text-white mr-3 w-64"
@@ -6,6 +6,7 @@ export default function Input({ type, placeholder, onChange, value }) {
             placeholder={placeholder}
             onChange={onChange}
             value={value}
+            required={required}
         />
     )
 }

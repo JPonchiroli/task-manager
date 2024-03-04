@@ -7,7 +7,7 @@ export default function Home() {
       <div className="pt-5">
         <div className="flex flex-col justify-center items-center h-screen">
           <Title>Task Manager</Title>
-          <Form />
+          <Form/>
         </div>
       </div>
     </div>
